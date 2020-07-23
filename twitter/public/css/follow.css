@@ -1,0 +1,82 @@
+/* 真ん中のメインコンテンツ */
+.center-top {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+}
+.center-top .arrow {
+    color: rgb(29, 161, 242);
+}
+.center-top .names h4 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.center-top .names p {
+    color: gray;
+    font-size: .8rem;
+    margin: .5rem 0 0;
+}
+.follows {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+.follows a {
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+.follows a:hover {
+    background-color: rgb(237, 249, 255);
+}
+.follows .on {
+    font-weight: bold;
+    color: rgb(29, 161, 242);
+    width: 100%;
+    border-bottom: 2px solid rgb(29, 161, 242);
+}
+.follows .off {
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+
+}
+
+/* フォロワーをリストで表示するところ */
+.account_card {
+    border-bottom: 1px #8080801a solid;
+    display: flex;
+    padding: 1rem;
+}
+.account_card img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+.account_card .info {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.account_card .info .top {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.account_card .info .top .names h4 {
+    font-weight: bold;
+    margin: 0 0 .4rem;
+}
+.account_card .info .top .names p {
+    color: gray;
+    font-size: 0.9rem;
+    margin: 0 0 .4rem;
+}
+.account_card .info .top .follow {
+    color: white;
+    background: rgb(29, 161, 242);
+    border: rgb(29, 161, 242);
+    padding: .4rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
